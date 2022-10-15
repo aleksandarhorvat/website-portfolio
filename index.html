@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://tarptaeya.github.io/repo-card/repo-card.js"></script>
+  <link rel="stylesheet" href="css\style.css">
+  <title>Aleksandar Horvat</title>
+</head>
+
+<body class="bg-secondary">
+
+  <section id="title">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1E2022;">
+      <h1 class="navbar-brand ps-3">Aleksandar Horvat</h1>
+      <a class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </a>
+      <div class="offcanvas offcanvas-end" style="background-color: #1E2022;" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel" style="color: #F0F5F9;">Aleksandar Horvat</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Eductaion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects" style="margin-right: 8px;">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section class="row" id="education" style="background-color: #C9D6DF; padding-bottom: 5%; margin-right: 0;">
+    <h1 class="ps-4" style="color: #52616B;">Education</h1>
+    <img class="col-4" src="images/tesla.png" alt="nikola-tesla">
+    <div class="col-4">
+      <p>Školski centar "Nikola Tesla" | Vršac, Vojvodina</p>
+      <p>Elektrotehničar računara | 06/2021</p>
+    </div>
+    <img class="col-4" src="images/pmf.png" alt="pmf">
+  </section>
+
+  <section id="projects" style="background-color: #52616B;">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <h1 style="color: #C9D6DF; text-align: center; padding-top: 1%;">Projects</h1>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="repo-card col-lg-3 col-md-5 col-sm-8 col-xs-8 mx-auto mt-5 mb-5" data-repo="aleksandarhorvat/war-card-game" data-theme="dark-theme"></div>
+            <div class="repo-card col-lg-3 col-md-5 col-sm-8 col-xs-8 mx-auto mt-5 mb-5" data-repo="aleksandarhorvat/kitchen-recipes-app " data-theme="dark-theme"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="repo-card col-lg-2 col-md-5 col-sm-10 mx-auto mt-5 mb-5" data-repo="aleksandarhorvat/high-school" data-theme="dark-theme"></div>
+            <div class="repo-card col-lg-2 col-md-5 col-sm-10 mx-auto mt-5 mb-5" data-repo="aleksandarhorvat/web-design-project" data-theme="dark-theme"></div>
+            <div class="repo-card col-lg-2 col-md-5 col-sm-10 mx-auto mt-5 mb-5" data-repo="aleksandarhorvat/faculty" data-theme="dark-theme"></div>
+          </div>
+        </div>
+        <button class="carousel-control-prev mx-auto" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next mx-auto" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
