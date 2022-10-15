@@ -28,3 +28,7 @@ p {
 .carousel-control-next-icon {
   padding-top: 1%;
 }
+
+.offcanvas.offcanvas-end{
+  width: 55vw;
+}
