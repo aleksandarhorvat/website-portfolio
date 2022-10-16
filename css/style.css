@@ -30,7 +30,10 @@ p {
 }
 
 .offcanvas.offcanvas-end{
-  width: 55vw;
+  width: 60vw;
+}
+.offcanvas.offcanvas-end a{
+  text-align: center;
 }
 h1{
   font-family: 'Roboto-Black-900', sans-serif;
