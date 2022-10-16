@@ -32,3 +32,15 @@ p {
 .offcanvas.offcanvas-end{
   width: 55vw;
 }
+h1{
+  font-family: 'Roboto-Black-900', sans-serif;
+}
+h6{
+  font-family: 'Roboto-Black-700', sans-serif;
+}
+p{
+  font-family: 'Roboto-400', sans-serif;
+}
+a{
+  font-family: 'Roboto-Black-900', sans-serif;
+}
