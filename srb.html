@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://tarptaeya.github.io/repo-card/repo-card.js"></script>
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <title>Aleksandar Horvat</title>
+</head>
+
+<body class="bg-secondary">
+
+  <section id="navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1E2022;">
+      <h1 class="navbar-brand ps-3 my-auto" style="color: #F0F5F9;">AH</h1>
+      <a class="nav-item my-auto me-auto" style="width: 16px; height: 16px;" href="index.html">
+        <img class="mb-5 me-auto" style="width: 100%;" src="images/en.png" alt="english">
+      </a>
+      <a class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </a>
+      <div class="offcanvas offcanvas-end" style="background-color: #1E2022;" data-bs-scroll="true" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel" style="color: #F0F5F9; margin-left: auto; margin-right: auto;">Aleksandar Horvat</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">O meni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Obrazovanje</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Veštine</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projekti</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section id="title" style="background-color: #C9D6DF; height: 92.5vh;">
+    <div style="text-align: center; position: absolute; top:40%; left: 0; right: 0;">
+      <h1 style="font-size: 70px;"><b>Aleksandar Horvat<b /></h1>
+      <h6 style="font-size: 26px;">Student Informacionih Tehnologija</h6>
+    </div>
+  </section>
+
+  <section class="row me-0" id="about-me" style="background-color: #52616B;">
+    <div class="col-8 mx-auto" style="color: #C9D6DF; font-weight: normal; margin: 3% auto 3% auto;">
+      <h1 style="text-align: center;">O meni</h1>
+      <p class="fs-4 text">
+        Voljan sam za sticanje novih znanja i veština.
+        Najviše me zanimaju Veštačka inteligencija i Web development ali i ostale sfere programiranja su mi podjednako zanimljive.
+        Do sada nisam imao kontakta sa pravim poslovnim okruženjem i voleo bih da steknem takvo iskustvo.
+      </p>
+    </div>
+  </section>
+
+  <section class="row" id="education" style="background-color: #C9D6DF; padding-bottom: 5%; margin-right: 0;">
+    <h1 class="my-auto pt-3" style="color: #52616B; text-align: center;">Obrazovanje</h1>
+    <img class="col-4 mx-auto" src="images/tesla.png" alt="nikola-tesla">
+    <div class="col-3 mx-auto"></div>
+    <img class="col-4 mx-auto" src="images/pmf.png" alt="pmf">
+    <div class="col-4 mx-auto mt-5">
+      <p style="text-align: center;">Školski centar "Nikola Tesla" | Vršac, Vojvodina</p>
+      <p style="text-align: center;">Elektrotehničar računara | 06/2021</p>
+    </div>
+    <div class="col-3 mx-auto"></div>
+    <div class="col-4 mx-auto mt-5">
+      <p style="text-align: center;">Prirodno-matematički fakultet | Novi Sad, Vojvodina</p>
+      <p style="text-align: center;">Informacione tehnologije | II godina</p>
+    </div>
+  </section>
+
+  <section id="projects" style="background-color: #52616B;">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <h1 class="my-auto pt-3" style="color: #C9D6DF; text-align: center;">Projekti</h1>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="repo-card col-lg-4 col-md-4 col-sm-8 mx-auto mt-5 mb-5" data-repo="aleksandarhorvat/kitchen-recipes-app " data-theme="dark-theme"></div>
+            <div class="repo-card col-lg-4 col-md-4 col-sm-8 mx-auto mt-5 mb-5" data-repo="aleksandarhorvat/war-card-game" data-theme="dark-theme"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="repo-card col-lg-4 col-md-4 col-sm-8 mx-auto mt-5 mb-5" data-repo="aleksandarhorvat/website-portfolio" data-theme="dark-theme"></div>
+            <div class="repo-card col-lg-4 col-md-4 col-sm-8 mx-auto mt-5 mb-5" data-repo="aleksandarhorvat/web-design-project" data-theme="dark-theme"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="repo-card col-lg-4 col-md-4 col-sm-8 mx-auto mt-5 mb-5" data-repo="aleksandarhorvat/faculty" data-theme="dark-theme"></div>
+            <div class="repo-card col-lg-4 col-md-4 col-sm-8 mx-auto mt-5 mb-5" data-repo="aleksandarhorvat/high-school" data-theme="dark-theme"></div>
+          </div>
+        </div>
+        <button class="carousel-control-prev mx-auto" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next mx-auto" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

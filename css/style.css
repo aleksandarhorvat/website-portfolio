@@ -29,21 +29,26 @@ p {
   padding-top: 1%;
 }
 
-.offcanvas.offcanvas-end{
+.offcanvas.offcanvas-end {
   width: 60vw;
 }
-.offcanvas.offcanvas-end a{
+
+.offcanvas.offcanvas-end a {
   text-align: center;
 }
-h1{
+
+h1 {
   font-family: 'Roboto-Black-900', sans-serif;
 }
-h6{
+
+h6 {
   font-family: 'Roboto-Black-700', sans-serif;
 }
-p{
+
+p {
   font-family: 'Roboto-400', sans-serif;
 }
-a{
+
+a {
   font-family: 'Roboto-Black-900', sans-serif;
 }
