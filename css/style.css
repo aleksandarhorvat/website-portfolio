@@ -11,8 +11,8 @@ a.nav-link, a.navbar-brand {
 }
 
 .repo-card {
-  /* width: 25%; */
-  height: 25%;
+  height: fit-content;
+  /* align-content: center; */
 }
 
 p {
@@ -21,7 +21,12 @@ p {
 
 #carouselExampleControls .carousel-control-prev,
 #carouselExampleControls .carousel-control-next {
-  width: 8%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.carousel-control-prev{
+  margin-right: 160%;
 }
 
 .carousel-control-prev-icon,
@@ -52,3 +57,7 @@ p {
 a {
   font-family: 'Roboto-Black-900', sans-serif;
 }
+ .container{
+  padding-right: 12%;
+  padding-left: 12%;
+ }
