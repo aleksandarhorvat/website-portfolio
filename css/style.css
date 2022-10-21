@@ -62,7 +62,7 @@ a {
 a:hover{
   color: #F0F5F9;
 }
- .container{
+ #projects .container{
   padding-right: 12%;
   padding-left: 12%;
  }
