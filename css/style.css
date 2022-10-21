@@ -55,7 +55,12 @@ p {
 }
 
 a {
+  text-decoration: none;
+  color: #F0F5F9;
   font-family: 'Roboto-Black-900', sans-serif;
+}
+a:hover{
+  color: #52616B;
 }
  .container{
   padding-right: 12%;
