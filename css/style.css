@@ -56,11 +56,11 @@ p {
 
 a {
   text-decoration: none;
-  color: #F0F5F9;
+  color: rgb(14, 55, 115);
   font-family: 'Roboto-Black-900', sans-serif;
 }
 a:hover{
-  color: #52616B;
+  color: #F0F5F9;
 }
  .container{
   padding-right: 12%;
