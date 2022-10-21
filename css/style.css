@@ -62,7 +62,10 @@ a {
 a:hover{
   color: #F0F5F9;
 }
- #projects .container{
+.container{
   padding-right: 12%;
   padding-left: 12%;
+ }
+ #education .container{
+  padding: 0;
  }
