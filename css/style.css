@@ -72,6 +72,7 @@ a:hover{
  }
  #lang {
   pointer-events: none;
+  width: 16px;
  }
 
  #lang img{
@@ -84,3 +85,7 @@ a:hover{
   font-size: 30px;
  } }
  
+ @media (min-width: 992px){
+  #lang{
+    width: 32px;
+   } }
