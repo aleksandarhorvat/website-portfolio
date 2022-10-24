@@ -12,7 +12,6 @@ a.nav-link, a.navbar-brand {
 
 .repo-card {
   height: fit-content;
-  /* align-content: center; */
 }
 
 p {
@@ -35,11 +34,12 @@ p {
 }
 
 .offcanvas.offcanvas-end {
-  width: 60vw;
+  width: 57vw;
 }
 
 .offcanvas.offcanvas-end a {
   text-align: center;
+  font-size: 25px;
 }
 
 h1 {
@@ -77,3 +77,10 @@ a:hover{
  #lang img{
   pointer-events: initial
  }
+
+ @media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link{
+  margin-right: 1rem;
+  font-size: 30px;
+ } }
+ 
