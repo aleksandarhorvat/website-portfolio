@@ -89,3 +89,7 @@ a:hover{
   #lang{
     width: 32px;
    } }
+
+.progress {
+  --bs-progress-bg: #C9D6DF;
+}
